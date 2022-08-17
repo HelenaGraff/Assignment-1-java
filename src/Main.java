@@ -33,7 +33,6 @@ public class Main {
         System.out.println("and your opponent is called: " + myWarrior.getName());
 
         System.out.println("To fight Zilong you must equip either a weapon or an armour");
-        //System.out.println(myMage.showUsableWeaponsOrArmour());
 
         System.out.println("The weapons available for your character to equip is: " + Arrays.toString(myMage.usableWeapons));
 
@@ -41,22 +40,9 @@ public class Main {
 
         myMage.addEquipment(myMageWeapon);
 
-       // myMage.getEquipment();
-
         System.out.println();
 
         System.out.println(myMageWeapon.getRequiredLevel());
-
-        //System.out.println(myMage.getEquipment());
-        // System.out.println(Arrays.toString(myMage.usableArmour));
-        //System.out.println(Arrays.toString(myMage.usableWeapons));
-
-        //myMage.levelUp();
-
-        // System.out.println(myMage.getIntelligence());
-
-
-
 
        // myWarrior.getEquipment();
 
